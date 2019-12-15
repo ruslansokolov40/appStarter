@@ -1284,6 +1284,11 @@ p{
       padding: 20px 10px;
    }
 
+   .load__btn {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
    .about-us__col {
       width: 100%;
       margin-bottom: 20px;
@@ -1363,6 +1368,26 @@ p{
 }
 
 @media (max-width: 479px) {
+
+   .load__wrap {
+      display: block;
+   }  
+
+   .load__desc {
+      display: block;
+      width: 100%;      
+   }
+
+   .load__btns__wrap {
+      display: block;
+      width: 100%;
+   }
+
+   .load__btns {
+      position: relative;
+      transform: inherit;
+   }
+
    .heading__btn {
       width: 100%;
       margin-bottom: 10px;
