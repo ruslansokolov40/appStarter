@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn--orange:before{
-   content: 'comment';
+   content: '';
    position: absolute;
    width: 100%;
    height: 100%;
@@ -1272,6 +1272,29 @@ p{
    .customers__item {
       width: 100%;
    }
+
+   .plan__wrap  {
+      display: block;
+   }
+
+   .plan__desc {
+      padding: 50px 0;    
+      display: block;
+      text-align: center;
+   }
+
+   .plan__desc p {
+      max-width: 100%;
+   }
+
+     .plan__cards {     
+      padding: 20px 0;
+      display: block;
+   }
+
+   .plan__cards__wrap {          
+      margin: 0 auto;
+   }
 }
 
 @media (max-width: 768px) {
@@ -1389,6 +1412,11 @@ p{
       width: 100%;
       margin-top: 20px;
       display: inline-block;
+   }
+
+   .plan__cards__wrap .card {
+      margin-top: 20px;
+      width: 100%;
    }
 }
 
