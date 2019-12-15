@@ -1264,6 +1264,14 @@ p{
    .info {
       padding: 80px 0;
    }
+
+   .customers__opinion {
+      padding-left : 20px;
+   }
+
+   .customers__item {
+      width: 100%;
+   }
 }
 
 @media (max-width: 768px) {
@@ -1365,9 +1373,31 @@ p{
       width: 100%;
       padding: 30px 20px;
    }
+
+   .customers__main {
+      width: 100%;
+      display: inline-block;
+      padding: 20px 0 20px;
+      text-align: center;
+   }
+
+   .customers__caption {
+      padding: 50px 0 50px;
+   }
+
+   .customers__opinion {
+      width: 100%;
+      margin-top: 20px;
+      display: inline-block;
+   }
 }
 
 @media (max-width: 479px) {
+
+   .heading__btn {
+      width: 100%;
+      margin-bottom: 10px;
+   }
 
    .load__wrap {
       display: block;
@@ -1388,9 +1418,8 @@ p{
       transform: inherit;
    }
 
-   .heading__btn {
+   .highlighs__inner {
       width: 100%;
-      margin-bottom: 10px;
    }
 }
 
