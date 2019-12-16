@@ -868,6 +868,17 @@ p{
    font-weight: 700;
 }
 
+.customers__signature__personal svg {
+   max-width: 15px;
+   max-height: 15px;
+   fill: #c2c5cb; 
+   float: right;
+}
+
+.customers__signature .midle__signature svg {
+   float: left;
+}
+
 .plan {
    background-color: #f8f9fa;
    border-top: 2px solid #e7e8ea;
