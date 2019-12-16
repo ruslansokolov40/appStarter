@@ -920,6 +920,7 @@ p{
 
 .plan__cards__wrap {
   letter-spacing: -.36em;
+  width: 670px;
 }
 
 .plan__cards__wrap::before {
@@ -934,8 +935,7 @@ p{
    vertical-align: middle;
    letter-spacing: normal;   
    border-radius: 10px;
-   height: 470px;
-   width: 320px;
+   width: 50%;
    padding: 50px 0 60px;
    background-color: #fff;
    color: #000;
@@ -947,8 +947,7 @@ p{
    background-image: url(../img/kart.jpg);
    background-size: cover;
    background-position: 50% 50%;
-   height: 504px;
-   width: 350px;
+   width: 50%;
    box-shadow: none;
 }
 
@@ -1423,6 +1422,10 @@ p{
       width: 100%;
       margin-top: 20px;
       display: inline-block;
+   }
+
+   .plan__cards__wrap {
+      width: 100%;
    }
 
    .plan__cards__wrap .card {
