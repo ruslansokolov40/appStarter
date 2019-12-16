@@ -872,7 +872,7 @@ p{
    max-width: 15px;
    max-height: 15px;
    fill: #c2c5cb; 
-   float: right;
+   float: right; 
 }
 
 .customers__signature .midle__signature svg {
@@ -1479,6 +1479,25 @@ p{
       width: 100%;
       margin-bottom: 20px;
    }
+
+   .footer__wrap {
+      position: relative;
+   }
+
+   .footer__logo {   
+      position: absolute;
+      left: 10px;
+      top: 0;
+   }
+
+   .footer__copyright {
+      display: inline-block;
+   }
+
+   .footer__social {
+      position: absolute;
+      right: 10px;
+      top: 0;
 }
 
 /* animation */
