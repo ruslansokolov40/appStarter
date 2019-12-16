@@ -1429,6 +1429,10 @@ p{
       margin-top: 20px;
       width: 100%;
    }
+
+   .callback__form {
+      padding: 20px;
+   }
 }
 
 @media (max-width: 479px) {
@@ -1444,7 +1448,8 @@ p{
 
    .load__desc {
       display: block;
-      width: 100%;      
+      width: 100%;  
+      padding-bottom: 30px;    
    }
 
    .load__btns__wrap {
@@ -1459,6 +1464,20 @@ p{
 
    .highlighs__inner {
       width: 100%;
+   }
+
+   .watching {
+      padding: 50px 0 70px;
+   }
+
+   .callback {
+      padding: 70px 0;
+   }
+
+   .callback__col {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
    }
 }
 
