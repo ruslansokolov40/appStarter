@@ -1485,22 +1485,27 @@ p{
 
    .footer__wrap {
       position: relative;
+      height: 105px;
    }
 
    .footer__logo {   
       position: absolute;
-      left: 10px;
       top: 0;
+      left: 0;
    }
 
    .footer__copyright {
-      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      width: 200px;
+      left: 50%;
+      transform: translateX(-50%);
    }
 
    .footer__social {
       position: absolute;
-      right: 10px;
       top: 0;
+      right: 0;
 }
 
 /* animation */
